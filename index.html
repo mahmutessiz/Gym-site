@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link type="text/css" rel="stylesheet" href="/styles/style.css" />
+        <link type="text/css" rel="stylesheet" href="/styles/footer.css" />
+        <link type="text/css" rel="stylesheet" href="/styles/about-us.css" />
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#">
+                    <div class="logo-div">LİON GYM</div>
+                </a>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#about-us" class="service"><li>About</li></a>
+                    <a href="#gallery-div"><li>Gallery</li></a>
+                    <a href="#footer-main"><li>Contact</li></a>
+                
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="background-image">
+                <div class="centered">
+                    <p>For body builders by Body Builders</p>
+                </div>
+                <img
+                    src="/styles/img/gym (1).jpg"
+                    class="hero-image"
+                    alt="GYM"
+                />
+            </div>
+            <article id="about-us">
+                <h1>ABOUT US</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Adipisci, blanditiis magnam est tempore provident facere
+                    error id alias quis non ducimus sed, a praesentium amet
+                    nulla iusto? Quos, magnam et? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Adipisci, blanditiis magnam
+                    est tempore provident facere error id alias quis non ducimus
+                    sed, a praesentium amet nulla iusto? Quos, magnam et? Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                    blanditiis magnam est tempore provident facere error id
+                    alias quis non ducimus sed, a praesentium amet nulla iusto?
+                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Adipisci, blanditiis magnam est tempore
+                    provident facere error id alias quis non ducimus sed, a
+                    praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Adipisci,
+                    blanditiis magnam est tempore provident facere error id
+                    alias quis non ducimus sed, a praesentium amet nulla iusto?
+                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Adipisci, blanditiis magnam est tempore
+                    provident facere error id alias quis non ducimus sed, a
+                    praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Adipisci,
+                    blanditiis magnam est tempore provident facere error id
+                    alias quis non ducimus sed, a praesentium amet nulla iusto?
+                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                </p>
+            </article>
+
+            <div id="gallery-div">
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+                <div class="cards">
+                    <img src="styles/img/gym (4).jpg" alt="" />
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="footer-main">
+                <div id="footer-links">
+                    <h4>BAĞLANTILAR</h4>
+                    <p>Anasayfa</p>
+                    <p>Şartlar ve Koşullar</p>
+                    <p>Galeri</p>
+                </div>
+
+                <div id="contact">
+                    <h4>İLETİŞİME GEÇ</h4>
+                    <p>adres</p>
+                    <p>telefon</p>
+                    <p>e-posta</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        var image = document.getElementsByClassName("hero-image");
+        new simpleParallax(image, {
+            delay: 0.6,
+            transition: "cubic-bezier(0,0,0,1)",
+        });
+    </script>
+</html>
