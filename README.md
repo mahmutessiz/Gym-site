@@ -1,2 +1,2 @@
 # Gym-site
- an trainin website that i made
+ a trainin website that i made

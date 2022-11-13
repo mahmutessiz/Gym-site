@@ -4,24 +4,30 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Loom GYM</title>
+        <link
+            rel="shortcut icon"
+            href="/styles/img/favicon-32x32.png"
+            type="image/x-icon"
+        />
         <link type="text/css" rel="stylesheet" href="/styles/style.css" />
         <link type="text/css" rel="stylesheet" href="/styles/footer.css" />
         <link type="text/css" rel="stylesheet" href="/styles/about-us.css" />
+        <link type="text/css" rel="stylesheet" href="/styles/pricing.css" />
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     </head>
     <body>
         <header>
             <nav>
                 <a href="#">
-                    <div class="logo-div">LİON GYM</div>
+                    <div class="logo-div">LOOM GYM</div>
                 </a>
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#about-us" class="service"><li>About</li></a>
+                    <a href="/index.html"><li>Home</li></a>
+                    <a href="#card-container"><li>Pricing</li></a>
+                    <a href="#about-us"><li>About</li></a>
                     <a href="#gallery-div"><li>Gallery</li></a>
-                    <a href="#footer-main"><li>Contact</li></a>
-                
+                    <a href="/contact.html"><li>Contact</li></a>
                 </ul>
             </nav>
         </header>
@@ -36,37 +42,94 @@
                     alt="GYM"
                 />
             </div>
-            <article id="about-us">
-                <h1>ABOUT US</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Adipisci, blanditiis magnam est tempore provident facere
-                    error id alias quis non ducimus sed, a praesentium amet
-                    nulla iusto? Quos, magnam et? Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Adipisci, blanditiis magnam
-                    est tempore provident facere error id alias quis non ducimus
-                    sed, a praesentium amet nulla iusto? Quos, magnam et? Lorem,
-                    ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-                    blanditiis magnam est tempore provident facere error id
-                    alias quis non ducimus sed, a praesentium amet nulla iusto?
-                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Adipisci, blanditiis magnam est tempore
-                    provident facere error id alias quis non ducimus sed, a
-                    praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
-                    dolor sit amet consectetur adipisicing elit. Adipisci,
-                    blanditiis magnam est tempore provident facere error id
-                    alias quis non ducimus sed, a praesentium amet nulla iusto?
-                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Adipisci, blanditiis magnam est tempore
-                    provident facere error id alias quis non ducimus sed, a
-                    praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
-                    dolor sit amet consectetur adipisicing elit. Adipisci,
-                    blanditiis magnam est tempore provident facere error id
-                    alias quis non ducimus sed, a praesentium amet nulla iusto?
-                    Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                </p>
-            </article>
 
+            <div id="article-div">
+                <article id="about-us">
+                    <h1>ABOUT US</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci, blanditiis magnam est tempore provident facere
+                        error id alias quis non ducimus sed, a praesentium amet
+                        nulla iusto? Quos, magnam et? Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Adipisci, blanditiis magnam
+                        est tempore provident facere error id alias quis non ducimus
+                        sed, a praesentium amet nulla iusto? Quos, magnam et? Lorem,
+                        ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+                        blanditiis magnam est tempore provident facere error id
+                        alias quis non ducimus sed, a praesentium amet nulla iusto?
+                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Adipisci, blanditiis magnam est tempore
+                        provident facere error id alias quis non ducimus sed, a
+                        praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Adipisci,
+                        blanditiis magnam est tempore provident facere error id
+                        alias quis non ducimus sed, a praesentium amet nulla iusto?
+                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Adipisci, blanditiis magnam est tempore
+                        provident facere error id alias quis non ducimus sed, a
+                        praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Adipisci,
+                        blanditiis magnam est tempore provident facere error id
+                        alias quis non ducimus sed, a praesentium amet nulla iusto?
+                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
+                    </p>
+                </article>
+            </div>
+            <div class="card-container" id="card-container">
+                <div class="card-basic">
+                    <div class="card-header header-basic">
+                      <h1>Basic</h1>
+                    </div>
+                    <div class="card-body">
+                      <p><h2>$5 / mo</h2></p>
+                      <div class="card-element-hidden-basic">
+                        <ul class="card-element-container">
+                          <li class="card-element">2 team members</li>
+                          <li class="card-element">2GB storage</li>
+                          <li class="card-element">1000 request per day</li>
+                          <li class="card-element">20000 users</li>
+                        </ul>
+                        <button class="btn btn-basic">Order now</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card-standard">
+                    <div class="card-header header-standard">
+                      <h1>Standard</h1>
+                    </div>
+                    <div class="card-body">
+                      <p><h2>$10 / mo</h2></p>
+                      <div class="card-element-hidden-standard">
+                        <ul class="card-element-container">
+                          <li class="card-element">5 team members</li>
+                          <li class="card-element">5GB storage</li>
+                          <li class="card-element">2000 request per day</li>
+                          <li class="card-element">40000 users</li>
+                        </ul>
+                        <button class="btn btn-standard">Order now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-premium">
+                    <div class="card-header header-premium">
+                      <h1>Premium</h1>
+                    </div>
+                    <div class="card-body">
+                      <p><h2>$20 / mo</h2></p>
+                      <div class="card-element-hidden-premium">
+                        <ul class="card-element-container">
+                          <li class="card-element">Unlimited team members</li>
+                          <li class="card-element">10GB storage</li>
+                          <li class="card-element">5000 request per day</li>
+                          <li class="card-element">Unlimited users</li>
+                        </ul>
+                        <button class="btn btn-premium">Order now</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
             <div id="gallery-div">
                 <div class="cards">
                     <img src="styles/img/gym (4).jpg" alt="" />
