@@ -14,6 +14,7 @@
         <link type="text/css" rel="stylesheet" href="/styles/footer.css" />
         <link type="text/css" rel="stylesheet" href="/styles/about-us.css" />
         <link type="text/css" rel="stylesheet" href="/styles/pricing.css" />
+        <link rel="stylesheet" href=mobile.css">
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
     </head>
     <body>
@@ -43,38 +44,40 @@
                 />
             </div>
 
-            <div id="article-div">
-                <article id="about-us">
-                    <h1>ABOUT US</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci, blanditiis magnam est tempore provident facere
-                        error id alias quis non ducimus sed, a praesentium amet
-                        nulla iusto? Quos, magnam et? Lorem, ipsum dolor sit amet
-                        consectetur adipisicing elit. Adipisci, blanditiis magnam
-                        est tempore provident facere error id alias quis non ducimus
-                        sed, a praesentium amet nulla iusto? Quos, magnam et? Lorem,
-                        ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-                        blanditiis magnam est tempore provident facere error id
-                        alias quis non ducimus sed, a praesentium amet nulla iusto?
-                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Adipisci, blanditiis magnam est tempore
-                        provident facere error id alias quis non ducimus sed, a
-                        praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
-                        dolor sit amet consectetur adipisicing elit. Adipisci,
-                        blanditiis magnam est tempore provident facere error id
-                        alias quis non ducimus sed, a praesentium amet nulla iusto?
-                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. Adipisci, blanditiis magnam est tempore
-                        provident facere error id alias quis non ducimus sed, a
-                        praesentium amet nulla iusto? Quos, magnam et? Lorem, ipsum
-                        dolor sit amet consectetur adipisicing elit. Adipisci,
-                        blanditiis magnam est tempore provident facere error id
-                        alias quis non ducimus sed, a praesentium amet nulla iusto?
-                        Quos, magnam et? Lorem, ipsum dolor sit amet consectetur
-                    </p>
-                </article>
+            <!-- xxxxxxxxxxxxxxxx About Section xxxxxxxxxxxxxxxxx -->
+            <div class="about-us" id="about-us">
+              <p>About Us</p>
             </div>
+<article class="about-articles">
+    
+            <div>Lorem, ipsum dolor sit amet consectetur
+               adipisicing elit. Corporis sit commodi 
+               inventore rerum ea molestias numquam itaque
+                nulla reiciendis quia, doloribus ex aliquid
+                 fugit ipsum recusandae modi, reprehenderit harum 
+                 dignissimos?</div>
+            <div>Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Corporis sit commodi 
+                  inventore rerum ea molestias numquam itaque
+                   nulla reiciendis quia, doloribus ex aliquid
+                    fugit ipsum recusandae modi, reprehenderit harum 
+                    dignissimos?</div>
+             <div>Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Corporis sit commodi 
+                      inventore rerum ea molestias numquam itaque
+                       nulla reiciendis quia, doloribus ex aliquid
+                        fugit ipsum recusandae modi, reprehenderit harum 
+                        dignissimos?</div>
+                        <div>Lorem, ipsum dolor sit amet consectetur
+                          adipisicing elit. Corporis sit commodi 
+                          inventore rerum ea molestias numquam itaque
+                           nulla reiciendis quia, doloribus ex aliquid
+                            fugit ipsum recusandae modi, reprehenderit harum 
+                            dignissimos?</div>
+</article>
+         
+          
+        <!-- xxxxxxxxxxxxxxxx Pricing Section xxxxxxxxxxxxxxxxx -->
             <div class="card-container" id="card-container">
                 <div class="card-basic">
                     <div class="card-header header-basic">
@@ -116,7 +119,9 @@
                       <h1>Premium</h1>
                     </div>
                     <div class="card-body">
-                      <p><h2>$20 / mo</h2></p>
+                      <p>
+                        <h2>$20 / mo</h2>
+                      </p>
                       <div class="card-element-hidden-premium">
                         <ul class="card-element-container">
                           <li class="card-element">Unlimited team members</li>
@@ -169,11 +174,11 @@
             </div>
         </footer>
     </body>
-    <script>
+     <script>
         var image = document.getElementsByClassName("hero-image");
         new simpleParallax(image, {
             delay: 0.6,
             transition: "cubic-bezier(0,0,0,1)",
         });
-    </script>
+    </script> 
 </html>

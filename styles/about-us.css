@@ -1,51 +1,45 @@
 main {
-    background: radial-gradient(circle, #8e9a3f 10%, transparent 11%),
-        radial-gradient(circle at bottom left, #8e9a3f 5%, transparent 6%),
-        radial-gradient(circle at bottom right, #8e9a3f 5%, transparent 6%),
-        radial-gradient(circle at top left, #8e9a3f 5%, transparent 6%),
-        radial-gradient(circle at top right, #8e9a3f 5%, transparent 6%);
-    background-size: 6em 6em;
-    background-color: #57573a;
-    opacity: 1;
+    background-color: #252424;
 }
-
-#article-div {
+.about-us {
     width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#article-div article {
-    width: 70%;
-    padding-top: 1rem;
-    font-family: monospace;
-    font-size: large;
-    font-weight: 300;
-    background: rgb(255, 255, 68);
+    height: 12vh;
+    display: grid;
+    place-items: center;
     padding-top: 5rem;
 }
-#article-div article > p {
-    line-height: 25px;
-    text-align: justify;
-    margin: auto;
-    max-width: 700px;
-    padding-bottom: 3rem;
-}
-
-#article-div article > h1 {
-    text-align: center;
-    margin: auto;
-    max-width: 700px;
-}
-#article-div article > h1 {
-    font-size: xx-large;
+.about-us > p {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
     font-weight: 900;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
-    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-footer h4 {
-    text-decoration: underline;
+.about-articles {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.about-articles > div {
+    max-width: 40%;
+    padding-top: 5rem;
+    padding: 20px 30px;
+    border-radius: 0.5rem;
+    text-align: justify;
+    background-color: rgb(255, 247, 4);
+}
+.about-articles > div {
+    max-height: 20vh;
+}
+.about-articles > div:nth-child(even) {
+    color: rebeccapurple;
+    margin-top: 8rem;
+}
+.about-articles > div:nth-child(odd) {
+    align-self: flex-start;
 }
