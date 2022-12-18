@@ -61,6 +61,8 @@ nav > a {
     font-size: x-large;
     margin-left: -25%;
 }
+#background-image{
+width:100%}
 #background-image > img {
     z-index: -1;
     width: 100%;
