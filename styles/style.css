@@ -63,6 +63,7 @@ nav > a {
 }
 #background-image > img {
     z-index: -1;
+    width: 100%;
     filter: blur(3px);
 }
 
